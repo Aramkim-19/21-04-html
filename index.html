@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;900&family=Noto+Serif+KR:wght@50; 100;200;300;500;700&display=swap" rel="stylesheet">
+		<style type="text/css">
+			body, section, img, h1, p {margin: 0;}
+			body {background-color: black;}
+			section {margin: auto; color: white; background-color: black;  word-break: keep-all; width: 1500px}
+			img{display: block; width: 100%;}
+			h1 {font-family: 'Noto Sans KR', sans-serif; font-weight: 600; color: white;
+			text-align: center;padding-top: 230px; padding-bottom: 20px; font-size: 2.5em;}
+			p{font-family: 'Noto Sans KR', serif; font font-weight: 50; color: white;
+			line-height: 2.2; font-size: 1em; word-spacing: 0px;
+			word-break: keep-all; text-align: center; padding-top: 50px; 
+			padding-bottom: 400px;}
+
+			.black { background: black;}
+			.row {width: 1200px; margin:auto; position: relative;}
+			.row1 {width: 1200px; margin:auto; font-size: 0.9em;}
+			.row2{padding-top: 150px; padding-bottom: 100px; background: black;}
+			.row3{padding-top: 250px; padding-bottom: 0px; background: black;}
+			.row4{padding-top: 200px; padding-bottom: 0px; background: black;}
+			.row5{ text-align: left; font-size: 1.4em; padding-top: 120px;line-height: 2; }
+			.row6{ text-align: left; font-size: 1.2em;  margin-left: 650px margin bottom 200px}
+			.row7{padding-top: 250px; padding-bottom: 380px; background: black; width: 1250px;}
+			.row8{font-size: 2em; line-height: 1.5; font-weight:500}
+
+
+			
+			
+			.relative{position: relative;}
+			.relative{position: relative;}
+			.absolute {display: block; position: absolute;}
+			
+			.sticker1 { left: 930px; width: -300px; top :-900px; opacity:70%; width: 35%;}
+			.sticker2 { left: 30px; width: -300px; top :-430px; width: 40%;}
+			.sticker3 { left: -50px; width: -300px; top :-640px; width: 8%;}
+			.sticker4 { left: -50px; width: -300px; top :-550px; width: 3%;}
+			
+			.sticker5 { left: 1100px; width: -300px; top :-420px; width: 0.5%; height: 150%}
+			.sticker6 { left: 950px; width: -300px; top :600px; width: 0.3%; opacity:70% }
+			.sticker7 { left: 870px; width: -300px; top :-180px; opacity:70%; width: 40%;}
+			.sticker8 { left: 870px; width: -300px; top :-120px; opacity:70%; width: 15%;}
+			.sticker9 { left: 210px; width: -300px; top :20px; width: 0.5%; height: 60%}
+			.sticker10 { left: -150px; width: -300px; top :70px; width: 30%;}
+			.sticker11 { left: -150px; width: -300px; top :130px; width: 25%;}
+			
+			.sticker12 { left: 1100px; width: -300px; top :170px;  width: 9%; height: 50%}
+			.sticker13 { left: -33px; width: -300px; top :165px;  width: 9%; height: 50%}
+			
+			.sticker14 { left: 500px; width: -300px; top :160px; width: 60%; }
+			.sticker15 { left: -50px; width: -300px; top :340px; width: 8%;}
+			.sticker16 { left: -150px; width: -300px; top :470px; width: 3%;}
+			.sticker17 { left: -100px; width: -300px; top :560px; width: 40%;}
+			.sticker18 { left: 930px; width: -300px; top :50px; opacity:70%; width: 35%;}
+			.sticker19 { left: 1000px; width: -300px; top :40px; text-align: left;}
+
+			.sticker20 { left: 50px; width: -300px; top :-200px; width: 35%; }
+			.sticker21 { left: -200px; width: -300px; top :-270px; width: 30%;}
+			.sticker22 { left: 870px; width: -300px; top :0px; opacity:70%; width: 40%;}
+			.sticker23 { left: 1050px; width: -100px; top :-220px; width: 0.5%; height: 200%}
+			.sticker24 { left: 870px; width: -300px; top :60px; opacity:70%; width: 12%;}
+			.sticker25 { text-align: left; font-size: 1.4em; left: 630px; width: -300px; top :100px; line-height: 2;}
+			.sticker26 {left: 350px; width: -300px; top :450px; text-align: left;}
+
+			
+			.sticker27{left: 280px; width: -300px; top :-1100px; width: 0.5%; height: 100%}
+			.sticker28{left: -150px; width: -300px; top :-900px; width: 30%;}
+			.sticker29 { text-align: left; font-size: 1.4em; left: 70px; width: -300px; top :100px; line-height: 2;}
+			.sticker30 { left: -100px; width: -300px; top :100px; width: 8%;}
+
+			.sticker31 { left: 0px; width: -300px; top :-330px; width: 8%; height: 150%}
+			.sticker32 { text-align: left; font-size: 1.6em; left: 250px; width: -300px; top :200px; line-height: 2;}
+			.sticker33 { left: 600px; width: -300px; top :-500px; width: 50% }
+			.sticker34 { left: 100px; width: -300px; top :-180px; width: 8%;}
+			.sticker35 { left: 150px; width: -300px; top :100px; width: 40%;}
+			.sticker36 { left: -150px; width: -300px; top :180px; width: 40%; opacity: 70%}
+			.sticker37 { text-align: left; font-size: 2em; left: 30px; width: -300px; top :-100px; line-height: 1.5; font-weight:500}
+			.sticker38 { left: 870px; width: -300px; top :500px; opacity:70%; width: 20%;}
+
+			.sticker39{left: -150px; width: -300px; top :-150px; width: 40%;}
+			.sticker40{left: 400px; width: -300px; top :-250px; width: 0.5%; height: 90%}
+			.sticker41 { text-align: left; font-size: 1.5em; left: 600px; width: -300px; top :-300px; line-height: 2; font-weight:400}
+			
+
+			.sticker43 { left: 0px; width: -300px; top :-700px; width: 8%; height: 200%}
+			.sticker44 { text-align: left; font-size: 1.6em; left: 400px; width: -300px; top :200px; line-height: 2;}
+			.sticker45 { left: 350px; width: -300px; top :-400px; width: 50% }
+			.sticker46 { left: 880px; width: -300px; top :-80px; width: 40%; opacity: 70%}
+			.sticker47 { left: -40px; width: -300px; top :100px; width: 8%;}
+			.sticker48 { left: -40px; width: -300px; top :300px; width: 3%;}
+			.sticker49 { left: -10px; width: -300px; top :380px; width: 40%;}
+			.sticker50 { left: -200px; width: -300px; top :450px; opacity:70%; width: 35%;}
+			.sticker51 { text-align:center; left:100px; width: -300px; top :450px; font-size: 2em; line-height: 2; font-weight:500;}
+			.sticker52 { text-align:center; left:350px; width: -300px; top :80px; font-size: 1.5em; line-height: 2; font-weight:400;}
+			.sticker53 { left: 870px; width: -300px; top :-50px; opacity:70%; width: 10%;}
+
+			.sticker54{left: 180px; width: -300px; top :0px; width: 0.5%; height: 90%}
+			.sticker55{left: 50px; width: -300px; top :150px; width: 40%;}
+			.sticker56 { text-align: left; font-size: 1.5em; left: 800px; width: -300px; top :-180px; line-height: 2; font-weight:400}
+			.sticker57 { text-align: left; font-size: 1.5em; left: 300px; width: -300px; top :250px; line-height: 2; font-weight:400}
+			.sticker58{left: 1100px; width: -300px; top :300px; width: 5%;}
+			.sticker59{left: 1100px; width: -300px; top :350px; width: 5%;}
+			.sticker60 { text-align: left; font-size: 1.3em; left: 1000px; width: -300px; top :850px; line-height: 2; font-weight:400}
+
+			.sticker61 { left: 0px; width: -300px; top :-200px; width: 8%; height: 150%}
+			.sticker62 { text-align: left; font-size: 1.6em; left: 550px; width: -300px; top :500px; line-height: 2;}
+			.sticker63 { left: 500px; width: -300px; top :-150px; width: 62% }
+
+			.sticker64 { left: 300px; width: -300px; top :-250px; width: 8%;}
+			.sticker65 { left: 50px; width: -300px; top :-80px; width: 3%;}
+			.sticker66 { left: 130px; width: -300px; top :20px; width: 40%;}
+			.sticker67 { left: -150px; width: -300px; top :100px; width: 40%; opacity: 70%}
+
+			.sticker68 { text-align:left; left:0px; width: -300px; top :-330px; font-size: 2em; line-height: 2; font-weight:500;}
+			.sticker69 { left: 880px; width: -300px; top :0px; width: 40%;}
+			.sticker70 { left: 870px; width: -300px; top :70px; opacity:70%; width: 15%;}
+			.sticker71 { text-align:center; left:500px; width: -300px; top :250px; font-size: 1.5em; line-height: 2; font-weight:400;}
+			.sticker72{left: 220px; width: -300px; top :220px; width: 0.5%; height: 90%}
+			.sticker73{left: -400px; width: -300px; top :330px; width: 40%;}
+
+			.sticker74 { text-align: left; font-size: 1.5em; left: 850px; width: -300px; top :-180px; line-height: 2; font-weight:400}
+			.sticker75 { text-align: left; font-size: 1.5em; left: 0px; width: -300px; top :150px; line-height: 2; font-weight:400}
+			.sticker76 { text-align: left; font-size: 1.3em; left: 150px; width: -300px; top :700px; line-height: 2; font-weight:400}
+			.sticker77 { left: 850px; width: -300px; top :650px; width: 3%;}
+			.sticker78 { left: 880px; width: -300px; top :700px; width: 35%;}
+			.sticker79 { left: 500px; width: -300px; top :770px; width: 40%; opacity: 70%}
+			.sticker80 { text-align: left; font-size: 0.9em; left: 150px; width: -300px; top :830px; line-height: 2; font-weight:400}
+
+			.sticker81 { left: 600px; width: -300px; top :500px; width: 8%; height: 50%}
+			.sticker82 { text-align: center; font-size: 0.9em; left: 570px; width: -300px; top :870px; line-height: 2; font-weight:400}
+
+
+			.flex {display: flex;}
+			.width50 {width: 50%;}
+
+			
+		</style>
+
+</head>
+<body>
+	<section class="row2"><img src="img1.jpg">
+		<div class="row">
+			<img src= "line1.png" class="absolute sticker1">
+			<img src= "line2.png" class="absolute sticker2">
+			<img src= "line3.png" class="absolute sticker3">
+			<img src= "line4.png" class="absolute sticker4">
+			</div>
+	</section>
+
+	<section class="black">
+		<div class="row">
+			<header> <h1>‘우주를 여행하는 문명, 여러 행성에 존재하는 인류’</h1> </header>
+			<p>Space X는 2002년 설립된 민간 항공우주 기업입니다.<br>
+			재활용 가능한 로켓 발사 시스템을 통해 안정적인 우주 여행 서비스를 제공합니다.</p>
+
+			<img src= "line10.png" class="absolute sticker5">
+			<img src= "line11.png" class="absolute sticker6">
+			<img src= "line8.png" class="absolute sticker7">
+			<img src= "line9.png" class="absolute sticker8">
+			<img src= "line7.png" class="absolute sticker9">
+			<img src= "line5.png" class="absolute sticker10">
+			<img src= "line6.png" class="absolute sticker11">
+		</div>
+	</section>
+
+	<section class="black">
+		<div class="row1 relative row4 ">
+			
+			<p>History<br><br>
+			2008년 9월 28일 지구 궤도에 도달한 최초의 민간 액체 로켓 (팰컨1 4차 발사)<br>
+			2010년 12월 09일우주선을 성공적으로 발사, 비행, 회수한 최초의 민간 기업 (팰컨9 2차 발사)<br>
+			2012년 5월 25일국제우주정거장으로 우주선을 보낸 최초의 민간 기업 (팰컨9 3차 발사)<br>
+			2017년 6월 03일상업용 화물 운송 우주선의 재사용 비행에 최초로 성공 (팰컨9 35차 발사)<br> 
+			2018년 2월 02팰컨 헤비 로켓의 발사 및 회수에 최초로 성공 (팰컨 헤비 1차 발사) <br>
+			2020년 5월 30일 국제우주정거장으로 우주인을 보낸 최초의 민간 기업 (팰컨9 85차 발사)<br> 
+			2023년 12월 27일 사상 첫 민간 우주 비행 프로젝트 ‘Dear Moon’ 성공 (우주선 스타쉽)<br>
+			2025년 9월 29일 민간인 대상의 지구, 달 여행 서비스 시작<br> 
+			2033년 3월 09일 화성 이주 프로젝트 첫 성공<br>
+			2038년 10월 26일 민간인 대상의 화성 여행 서비스 시작</p>
+			<img src= "block2.png" class="absolute sticker12">
+			<img src= "block1.png" class="absolute sticker13">
+		
+		</div>
+	</section>
+
+	<section class="black">
+		<div class="row relative row3">
+			<p class="absolute sticker19">신장 50M 직경 9M<br> 탑승 총 인원 80~120명</p>
+			<p class="flex row5 ">1. STARSHIP <br>
+			스페이스X의 대표적인 기술로 만들어낸 재활용 가능한 우주 발사체입니다.<br>
+			인류의 화성 이주 및 우주 여행을 담당합니다. </p>
+			<img src= "img2.png" class="absolute sticker14">
+			<img src= "line3.png" class="absolute sticker15">
+			<img src= "line4.png" class="absolute sticker16">
+			<img src= "line2.png" class="absolute sticker17">
+			<img src= "line1.png" class="absolute sticker18">
+		</div>
+	</section>
+
+		<section class="black">
+		<div class="row relative row7">
+			
+			<img src= "line1.png" class="absolute sticker21">
+			<img src= "img3.png" class="absolute sticker20">
+			<img src= "line8.png" class="absolute sticker22">
+			<img src= "line10.png" class="absolute sticker23">
+			<img src= "line9.png" class="absolute sticker24">
+			<p class="absolute sticker25 ">2. DRAGON<br>
+			NASA와의 상업용 궤도 운송 서비스를 담당하고 있습니다.<br>
+			우주선 드래곤을 통해 2012년 10월 부터 국제 우주 정거장 (ISS)에 <br>
+			화물 수송 서비스를 담당하고 있습니다.</p>
+			
+			<p class="absolute sticker26">신장 8.1M 직경 4M <br> 탑승 총 인원 7명</p>
+		</div>
+	</section>
+
+	<section class="row2"><img src="img2.jpg">
+			<div class="row relative row7">
+				<img src= "line7.png" class="absolute sticker27">
+				<img src= "line6.png" class="absolute sticker28">
+				<img src= "line3.png" class="absolute sticker30">
+			
+			<p class="absolute sticker29">3. 위성인터넷 스타링크<br>
+			아프리카 빈곤 지역, 극지방에 거주하는 사람들을 위한 광대역 인터넷 서비스입니다.<br>
+			낮은 궤도에 배치된 인공위성은 스타링크 고객들에게 안정적이고 넓은 인터넷 서비스를 제공하게합니다.<br> Space X의 스타링크 서비스는 인터넷 연결의 불완전함을 해결합니다.</p>
+			</div>
+	</section>
+	
+	<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "block2.png" class="absolute sticker31">
+				<p class="absolute sticker32">EARTH</p>
+			</div>
+	</section>
+
+	<section class="row2"> 
+			<div class="row relative row7">
+			<img src= "img4.png" class="absolute sticker33">
+			<img src= "line3.png" class="absolute sticker34">
+			<img src= "line2.png" class="absolute sticker35">
+			<img src= "line1.png" class="absolute sticker36">
+
+			<p class="absolute sticker37">‘지구에서 지구로 !<br> 
+			우주선은 우리에게 가장 빠른 교통수단 입니다.’
+
+			<img src= "line9.png" class="absolute sticker38">
+				
+			</div>
+	</section>
+
+	<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "line6.png" class="absolute sticker39">
+				<img src= "line7.png" class="absolute sticker40">
+			
+
+			<p class="absolute sticker41">탑승 우주선 : 드래곤 우주선<br><br>  
+				도착지별  소요 시간과 금액 안내<br><br>    
+
+				한국 - 중국 (6분) 342,000원<br> 
+				한국 - 일본 (10분) 570,000원<br>
+				한국 - 홍콩 (16분) 912,000원<br>
+				한국 - 방콕 (26분) 1,482,000원<br>
+				한국 - 싱가포르 (28분) 1,596,000원<br>
+				한국 - 두바이 (43분) 2,451,000원<br>
+				한국 - 런던 (55분) 3,135,000원<br>
+				한국 - 파리 (56분) 3,192,000원<br>
+				한국 - 뉴욕 (1시간 5분)  3,705,000원<br>
+				지구 한 바퀴 (1시간 30분) 5,130,000원<br> </p>
+
+				
+			</div>
+	</section>
+	
+	<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "block2.png" class="absolute sticker43">
+				<p class="absolute sticker44">MOON</p>
+			</div>
+	</section>
+
+	<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "img5.png" class="absolute sticker45">
+				<img src= "line1.png" class="absolute sticker46">
+				<img src= "line3.png" class="absolute sticker47">
+				<img src= "line4.png" class="absolute sticker48">
+				<img src= "line2.png" class="absolute sticker49">
+				<img src= "line1.png" class="absolute sticker50">
+				<p class="row8 absolute sticker51">‘우리가 보는 밤 하늘의 별들은 우주의 팽창으로 인해 점점 멀어져 가고 있습니다.<br>하지만 달은 영원할 것입니다. 달은 지구에게 변함없는 존재입니다.’</p>
+			</div>
+	</section>
+
+	<section class="row2"> 
+			<div class="row relative row7">
+				<p class="row8 absolute sticker52">‘달’은<br>
+				우주에서 인류가 방문한 첫 번째 천체입니다.<br>
+				달의 공전과 자전 주기는 약 27.3일 입니다.<br>
+				그렇기 때문에 달은 늘 한쪽 면만 지구를 향하고 있습니다.<br>
+				여행을 통해 그동안 보지 못했던 달의 뒷모습을 확인하세요.</p>
+
+			<img src= "line9.png" class="absolute sticker53">
+			</div>
+	</section>
+
+	<section class="black"> 
+			<div class="relative">
+				<img src="img6.png">
+			</div>
+	</section>
+
+	<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "line5.png" class="absolute sticker10">
+				<img src= "line7.png" class="absolute sticker54">
+				<img src= "line6.png" class="absolute sticker55">
+
+				<p class="absolute sticker56">00. 3주간의 지상 훈련에 참가합니다.<br>원심분리기를 통한 중력가속도 훈련<br>물 속에서의 우주 유영 훈련<br> 심리적 압박감을 대비한 훈련 </p>
+
+				<p class="absolute sticker57">달 비행 여행 경로<br><br>
+				01.  스타쉽 우주선이 이륙합니다.<br>  
+				02. 코어 우주선에서 서브 우주선이 분리됩니다.<br> 
+				03. 진공 엔진을 사용하여 달 여행 궤도에 진입합니다.<br>
+				04. 3일이 지나면 달에 가까이 접근합니다.<br>
+				05. 우주선이 달과 가장 가까워지는 지점입니다. 달의 뒷모습을 볼 수 있습니다.<br>
+				06. 지구로 돌아가는 궤도에 진입합니다.<br>
+				07. 방열판을 사용하여 지구 대기권으로 진입합니다.<br>
+				08. 제어 화상 시스템으로 안전하게 지구에 착륙합니다. </p>
+
+				<img src= "line12.png" class="absolute sticker58">
+				<img src= "line13.png" class="absolute sticker59">
+
+				<p class="absolute sticker60">탑승 우주선 : 스타쉽 우주선 <br> 소요 시간 : 6박 7일<br> 비용 : 8300만원</p>
+			</div>
+	</section>
+	
+	<section class="row2"> 
+	</section>
+	
+	<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "block2.png" class="absolute sticker61">
+				<p class="absolute sticker62">MARS</p>
+			</div>
+	</section>
+
+<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "img1.png" class="absolute sticker63">
+				<img src= "line3.png" class="absolute sticker64">
+				<img src= "line4.png" class="absolute sticker65">
+				<img src= "line2.png" class="absolute sticker66">
+				<img src= "line1.png" class="absolute sticker67">
+			</div>
+	</section>
+
+	<section class="row2"> 
+			<div class="row relative row7">
+				<p class="absolute sticker68">‘새로운 행성에서 최초의 인류가 되어보세요.<br> 모든 것을 처음부터 시작할 수 있습니다.’</p><img src= "line5.png" class="absolute sticker69">
+				<img src= "line9.png" class="absolute sticker70">
+				<p class="absolute sticker71">‘화성’의<br>
+				자전 주기는 24시간 37분으로 지구의 하루와 거의 비슷합니다.<br> 
+				12시간 정도의 낮과 밤이 번갈아 나타납니다.<br>
+				지구가 23.5도 기울어져 있는 자전축으로 계절의 변화가 생기는것 처럼,<br> 
+				화성의 자전축도 25도 정도 기울어져 있어 지구처럼 4계절이 나타납니다. </p>
+
+				<img src= "line7.png" class="absolute sticker72">
+				<img src= "line6.png" class="absolute sticker73">
+			</div>
+	</section>
+
+	<section class="black"> 
+			<div class="relative">
+				<img src="img7.png">
+			</div>
+	</section>
+
+	<section class="row2"> 
+			<div class="row relative row7">
+				<p class="absolute sticker74">00. 3개월의 지상 훈련에 참가합니다.<br>원심분리기를 통한 중력가속도 훈련<br>물 속에서의 우주 유영 훈련<br>심리적 압박감 대비한 훈련<br>화성과 비슷한 환경에서의 합숙훈련</p>
+
+				<p class="absolute sticker75">화성 여행 경로<br><br>
+
+				01.  스타쉽 우주선이 이륙합니다. 코어 우주선에서 서브 우주선이 분리됩니다.<br>  
+				02. 우주선의 충전을 도와주는 유조선이 추가로 발사됩니다.<br>
+				03. 스타쉽 우주선에 도착한 충전 유조선을 통해 스타쉽을 재충전합니다.<br>
+				04. 공급 받은 연료로 지구 궤도에서 화성으로 여행이 시작됩니다.<br>
+				05. 약 6개월의 우주선 비행이 끝나면 화성 표면에 도착하게 됩니다.<br>
+				06. 화성의 지역 자원인 이산화탄소를 활용하여 우주선의 연료를 충전합니다.</p>
+
+				<p class="absolute sticker76">탑승 우주선 : 스타쉽 우주선<br>  
+				소요 시간: 약 6개월<br>비용:  248억 4000만원 (편도)</p>
+				<p class="absolute sticker80">*지구와 화성이 가까워 지는 시기(근일점)에만 여행이 가능합니다.*</p>
+
+				<img src= "line4.png" class="absolute sticker77">
+				<img src= "line2.png" class="absolute sticker78">
+				<img src= "line1.png" class="absolute sticker79">
+			</div>
+		</section>
+
+		<section class="row2"> 
+			<div class="row relative row7">
+				<img src= "block2.png" class="absolute sticker81">
+				<p class="absolute sticker82">Aram Kim<br> 
+					clamp9011@gmail.com</p>
+				
+			</div>
+	</section>
+
+
+	
+
+
+
+</body>
+</html>
